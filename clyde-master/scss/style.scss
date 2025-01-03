@@ -93,8 +93,19 @@ h1, h2, h3, h4, h5,
   }
  
 
-
-
+.hero-video {
+	position: relative; 
+	z-index: 0;
+	@include media-breakpoint-down(md) {
+		z-index: 2;
+	}
+}
+.hero-wrapper {
+	background-color: transparent;
+	@include media-breakpoint-down(md) {
+		background-color: black;
+	}
+}
 
 .ftco-navbar-light {
 	background: transparent!important;
