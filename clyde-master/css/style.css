@@ -8504,6 +8504,13 @@ h1, h2, h3, h4, h5,
               right: 0;
               width: 1200px;
               margin: 0 auto; } }
+
+             
+
+              @media (max-width: 991.98px) {
+                .newframe  {
+                  z-index: 1;
+                  padding-bottom: 15px;} }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               width: 100%;
@@ -8512,8 +8519,8 @@ h1, h2, h3, h4, h5,
               left: 0;
               right: 0;
               bottom: 0;
-              z-index: 1;
-              padding: 1em; } }
+              padding: 1em;
+              background-color: black; } }
           .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
             width: 100%; }
             @media (min-width: 992px) {
